@@ -6,7 +6,7 @@ function App() {
   const ChooseData = [
     {
       textList: ['would', 'used to'],
-      truthyIndex: [0]
+      truthyIndex: [1]
     },
     {
       textList: ['would', 'used to'],
@@ -42,28 +42,33 @@ function App() {
     }
   ]
 
+  const ChooseData2 = [
+
+  ]
+
   return (
     <div className="App">
-      <span>A: Oh yes, there's one really weird one. When I was a child </span> 
-      <ConditionalTextComponent {...ChooseData[0]}/>
-      <span> love watching nature documentaries. I </span> 
-      <ConditionalTextComponent {...ChooseData[1]}/>
-      <span> never miss one. That November I'd </span> 
-      <ConditionalTextComponent {...ChooseData[2]}/>
-      <span> a series of programmes about animals on TV and I </span>
-      <ConditionalTextComponent {...ChooseData[3]}/>
-      <span> the final one- about hippopotamuses. It </span>
-      <ConditionalTextComponent {...ChooseData[4]}/>
-      <span> with rain for days and water suddenly </span>
-      <ConditionalTextComponent {...ChooseData[5]}/>
-      <span> to gush under the front door. Dad </span>
-      <ConditionalTextComponent {...ChooseData[6]}/>
-      <span> us all out. Later I </span>
-      <ConditionalTextComponent {...ChooseData[7]}/>
-      <span> out that when our house was flooded actually </span>
-      <ConditionalTextComponent {...ChooseData[8]}/>
-      <span> with my cousins! 
-</span>
+      <div className='Paragraph1'>
+        <span>A: Oh yes, there's one really weird one. When I was a child </span> 
+        <ConditionalTextComponent {...ChooseData[0]}/>
+        <span> love watching nature documentaries. I </span> 
+        <ConditionalTextComponent {...ChooseData[1]}/>
+        <span> never miss one. That November I'd </span> 
+        <ConditionalTextComponent {...ChooseData[2]}/>
+        <span> a series of programmes about animals on TV and I </span>
+        <ConditionalTextComponent {...ChooseData[3]}/>
+        <span> the final one- about hippopotamuses. It </span>
+        <ConditionalTextComponent {...ChooseData[4]}/>
+        <span> with rain for days and water suddenly </span>
+        <ConditionalTextComponent {...ChooseData[5]}/>
+        <span> to gush under the front door. Dad </span>
+        <ConditionalTextComponent {...ChooseData[6]}/>
+        <span> us all out. Later I </span>
+        <ConditionalTextComponent {...ChooseData[7]}/>
+        <span> out that when our house was flooded actually </span>
+        <ConditionalTextComponent {...ChooseData[8]}/>
+        <span> with my cousins!</span>
+      </div>
     </div>
   );
 }
