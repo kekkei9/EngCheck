@@ -1,0 +1,7 @@
+.ConditionalText .text:hover{
+    cursor: pointer;
+}
+
+.ConditionalText {
+    text-decoration: underline;
+}
