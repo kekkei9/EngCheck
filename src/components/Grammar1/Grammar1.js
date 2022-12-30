@@ -106,7 +106,7 @@ const Grammar1Component = (props) => {
         onClick={() => {
             setSubmitList(Array(14).fill(true))
         }}
-        style={{alignSelf:'center'}}>Submit</button>
+        style={{alignSelf:'center', marginTop: '16px'}}>Submit</button>
     </div>
 }
 

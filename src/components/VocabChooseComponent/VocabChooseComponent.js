@@ -4,12 +4,12 @@ import { Select } from "antd";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleCheck, faCircleXmark } from "@fortawesome/free-solid-svg-icons";
 
-const VocabChooseComponent = ({keyValue}) => {
+const VocabChooseComponent = ({keyValue, length}) => {
     const [isTrue, setIsTrue] = useState(-1);
 
     return (<div className="VocabChooseComponent">
     <Select 
-    style={{ width: 60 }}
+    style={{ width: 60, marginRight: '8px' }}
       onChange={(value) => setIsTrue(keyValue === value ? 1 : 0)}
       disabled={isTrue !== -1}
       options={[
@@ -37,7 +37,19 @@ const VocabChooseComponent = ({keyValue}) => {
           value: 'F',
           label: 'F',
         },
-      ]}/>
+        {
+          value: 'G',
+          label: 'G',
+        },
+        {
+          value: 'H',
+          label: 'H',
+        },
+        {
+          value: 'I',
+          label: 'I',
+        },
+      ].slice(0, length)}/>
       {isTrue === 1 && <FontAwesomeIcon icon={faCircleCheck} style={{color: 'green'}}/> }
       {isTrue === 0 && <FontAwesomeIcon icon={faCircleXmark} style={{color: 'red'}}/>}
     </div>)

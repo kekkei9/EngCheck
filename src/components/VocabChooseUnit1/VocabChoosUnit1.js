@@ -15,7 +15,7 @@ const VocabChooseUnit1 = (props) => {
                     <span> conversations</span>
                     <span style={{fontWeight: '600'}}> word for word.</span>
                 </div>
-                <VocabChooseComponent keyValue={keyList[0]}/>
+                <VocabChooseComponent keyValue={keyList[0]} length={6}/>
             </div>
             <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', marginTop:'8px'}}>
                 <div>
@@ -24,7 +24,7 @@ const VocabChooseUnit1 = (props) => {
                     <span style={{fontWeight: '600'}}>jog my memory</span>
                     <span> about things like that.</span>
                 </div>
-                <VocabChooseComponent keyValue={keyList[1]}/>
+                <VocabChooseComponent keyValue={keyList[1]} length={6}/>
             </div>
             <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', marginTop:'8px'}}>
                 <div>
@@ -33,7 +33,7 @@ const VocabChooseUnit1 = (props) => {
                     <span style={{fontWeight: '600'}}>block out memories</span>
                     <span> of things that upset me.</span>
                 </div>
-                <VocabChooseComponent keyValue={keyList[2]}/>
+                <VocabChooseComponent keyValue={keyList[2]} length={6}/>
             </div>
             <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', marginTop:'8px'}}>
                 <div>
@@ -43,7 +43,7 @@ const VocabChooseUnit1 = (props) => {
                     <span> faces </span>
                     <span style={{fontWeight: '600'}}> to memory.</span>
                 </div>
-                <VocabChooseComponent keyValue={keyList[3]}/>
+                <VocabChooseComponent keyValue={keyList[3]} length={6}/>
             </div>
             <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', marginTop:'8px'}}>
                 <div>
@@ -51,16 +51,16 @@ const VocabChooseUnit1 = (props) => {
                     <span > My sister said I had a</span>
                     <span style={{fontWeight: '600'}}>selective memory.</span>
                 </div>
-                <VocabChooseComponent keyValue={keyList[4]}/>
+                <VocabChooseComponent keyValue={keyList[4]} length={6}/>
             </div>
             <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', marginTop:'8px'}}>
                 <div>
                     <span style={{fontWeight: '600'}}>6</span>
-                    <span > selective memory.</span>
+                    <span > A pair of eyes can </span>
                     <span style={{fontWeight: '600'}}>trigger a memory</span>
                     <span>  of someone I've seen before. </span>
                 </div>
-                <VocabChooseComponent keyValue={keyList[5]}/>
+                <VocabChooseComponent keyValue={keyList[5]} length={6}/>
             </div>
         </div>
     </div>
