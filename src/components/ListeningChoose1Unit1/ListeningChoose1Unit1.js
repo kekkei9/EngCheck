@@ -2,7 +2,7 @@ import React from "react";
 import VocabChooseComponent from '../VocabChooseComponent/VocabChooseComponent'
 
 const ListeningChoose1Unit1 = (props) => {
-    const keyList= Array(5).fill('A')
+    const keyList= ['A', 'C', 'F', 'D', 'B']
 
     return <div className="ListeningChoose1Unit1" style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
         {keyList.map((keyValue, index) => (

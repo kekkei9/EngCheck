@@ -11,7 +11,6 @@ const VocabChooseComponent = ({keyValue, length}) => {
     <Select 
     style={{ width: 60, marginRight: '8px' }}
       onChange={(value) => setIsTrue(keyValue === value ? 1 : 0)}
-      disabled={isTrue !== -1}
       options={[
         {
           value: 'A',

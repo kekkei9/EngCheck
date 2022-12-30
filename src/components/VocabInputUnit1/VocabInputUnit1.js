@@ -6,8 +6,8 @@ const VocabInputUnit1 = () => {
     const [isSubmitted, setIsSubmitted] = useState(false)
 
     const keyList = [
-        'commit', 'blocked' , 'jog', 'word for word', 'triggers',
-'selective'
+        'selective ', ['remembers', 'recalls'] , ['remember', 'recall'], 'remind', 'remind ',
+'trigger'
     ]
 
     return <div className="VocabInputUnit1" style={{display: 'flex', flexDirection: 'column'}}>
@@ -18,9 +18,9 @@ const VocabInputUnit1 = () => {
             <span>My brother has a very </span>
             <InputTenseComponent keyList={[keyList[0]]} isSubmitted={isSubmitted}/>
             <span> memory. He </span>
-            <InputTenseComponent keyList={[keyList[1]]} isSubmitted={isSubmitted}/>
+            <InputTenseComponent keyList={keyList[1]} isSubmitted={isSubmitted}/>
             <span> things like when he's out partying or times of sports events on TV, but cannot for the life of him </span>
-            <InputTenseComponent keyList={[keyList[2]]} isSubmitted={isSubmitted}/>
+            <InputTenseComponent keyList={keyList[2]} isSubmitted={isSubmitted}/>
             <span> my birthday (my mum always has to </span>
             <InputTenseComponent keyList={[keyList[3]]} isSubmitted={isSubmitted}/>
             <span> him) or where he put the DVD lent him yesterday. My dad has a really sharp memory- particularly about when my homework's due! He can remember conversations we've had </span>

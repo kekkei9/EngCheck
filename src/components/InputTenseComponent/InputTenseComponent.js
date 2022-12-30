@@ -13,6 +13,7 @@ const InputTenseComponent = ({keyList, hint, isSubmitted, width = '180px'}) => {
 
     return <span className="InputTense">
         <span className="inputBox">
+            {isSubmitted && !isTrue && <span style={{color: 'green'}}>{keyList.join('/')}</span>}
             <input size={4} maxLength={20} disabled={isSubmitted} onInput={(e) => {
                 setValue(e.target.value)
             }} style={{width: width}}/>
