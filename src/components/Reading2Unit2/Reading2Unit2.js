@@ -24,7 +24,7 @@ const Reading2Unit2 = (props) => {
         <div>
             <span>Which contributor:</span>
         </div>
-        <div className="chooseFormContainer" style={{display: 'flex', flexDirection: 'column', width: '67%'}}>
+        <div className="chooseFormContainer" style={{display: 'flex', flexDirection: 'column'}}>
             {desList.map((des, index) => <div className="chooseContainer" style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', marginTop: '8px'}}>
                 <div>
                     <span style={{fontWeight: '600'}}>{index+1} </span>
