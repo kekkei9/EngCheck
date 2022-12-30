@@ -3,6 +3,7 @@ import VocabChooseComponent from '../VocabChooseComponent/VocabChooseComponent'
 
 const ListeningChoose2Unit1 = (props) => {
     const keyList= ['B', 'H', 'F', 'A', 'C']
+    
 
     return <div className="ListeningChoose2Unit1" style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
         {keyList.map((keyValue, index) => (
