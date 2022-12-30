@@ -1,8 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
-import ConditionalTextComponent from './components/ConditionalText/ConditionalText';
 import { Routes, Route } from 'react-router';
 import ConditionalPara1 from './components/ConditionalPara1/ConditionalPara1'
+import Grammar1Component from './components/Grammar1/Grammar1';
 
 function App() {
   
@@ -10,9 +9,9 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={ <ConditionalPara1/> } />
-
-        <Route path={`${process.env.PUBLIC_URL}/conditionalPara1`} element={ <ConditionalPara1/> } />
+        <Route exact path="/" element={ <ConditionalPara1/> } />
+        <Route exact path='/unit1/grammar/1' element={ <ConditionalPara1/> } />
+        <Route exact path='/unit1/grammar/2' element={ <Grammar1Component/> } />
       </Routes>
     </div>
   );
