@@ -48,7 +48,7 @@ const VocabChooseUnit1 = (props) => {
             <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', marginTop:'8px'}}>
                 <div>
                     <span style={{fontWeight: '600'}}>5</span>
-                    <span > My sister said I had a</span>
+                    <span > My sister said I had a </span>
                     <span style={{fontWeight: '600'}}>selective memory.</span>
                 </div>
                 <VocabChooseComponent keyValue={keyList[4]} length={6}/>

@@ -13,6 +13,8 @@ import Vocab1Unit2 from './components/Vocab1Unit2/Vocab1Unit2'
 import ListeningChoose1Unit2 from './components/ListeningChoose1Unit2/ListeningChoose1Unit2'
 import ListeningChoose2Unit2 from './components/ListeningChoose2Unit2/ListeningChoose2Unit2'
 import Further1Unit1 from './components/Further1Unit1/Further1Unit1'
+import Further2Unit1 from './components/Further2Unit1/Further2Unit1'
+import FurtherUnit2 from './components/FurtherUnit2/FurtherUnit2'
 
 function App() {
   
@@ -44,6 +46,9 @@ function App() {
         <Route exact path='/unit2/listening/2' element={<ListeningChoose2Unit2 />} />
 
         <Route exact path='further/unit1/1' element={<Further1Unit1 />} />
+        <Route exact path='further/unit1/2' element={<Further2Unit1 />} />
+
+        <Route exact path='further/unit2' element={<FurtherUnit2 />} />
       </Routes>
     </div>
   );

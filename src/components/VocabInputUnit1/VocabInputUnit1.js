@@ -6,7 +6,7 @@ const VocabInputUnit1 = () => {
     const [isSubmitted, setIsSubmitted] = useState(false)
 
     const keyList = [
-        'selective ', ['remembers', 'recalls'] , ['remember', 'recall'], 'remind', 'remind ',
+        'selective', ['remembers', 'recalls'] , ['remember', 'recall'], 'remind', 'word for word',
 'trigger'
     ]
 
