@@ -15,7 +15,7 @@ const FurtherUnit2 = () => {
     return <div className='FurtherUnit2' style={{display: "flex", flexDirection: 'column'}}>
         {keyList.map((key, index) =><div>
             <span style={{fontWeight: '600'}}>{index + 1} </span>
-            <InputTenseComponent keyList={key} isSubmitted={isSubmitted} width='400px'/>
+            <InputTenseComponent keyList={[key]} isSubmitted={isSubmitted} width='400px' maxLength={60}/>
         </div>)}
          <button 
         className="primary-btn"
