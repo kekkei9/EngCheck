@@ -38,7 +38,7 @@ const Further2Unit1 = () => {
     ]
 
     return <div className="Further2Unit1" style={{display: "flex", flexDirection: 'column'}}>
-        <div><span>Complete the second sentence so that it has a similar meaning to the first sentence, using the word given. Do not change the word given. Use between three and six words</span></div>
+        <div style={{marginBottom: '8px'}}><span style={{fontWeight: '600'}}>Complete the second sentence so that it has a similar meaning to the first sentence, using the word given. Do not change the word given. Use between three and six words</span></div>
 
         {keyList.map((key, index) => <div style={{marginTop: '16px'}}>
             <div>

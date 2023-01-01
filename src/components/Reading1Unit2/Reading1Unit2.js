@@ -16,7 +16,7 @@ const Reading1Unit2 = (props) => {
 
     return <div className="Reading1Unit2">
         <div>
-            <span>Read the contributions again. For questions 1-10, choose from the contributors (A-D). The contributors may be chosen more than once.</span>
+            <span style={{fontWeight: '600', marginBottom: '16px'}}>Read the contributions again. For questions 1-10, choose from the contributors (A-D). The contributors may be chosen more than once.</span>
         </div>
         <div>
             <span>Which contributor:</span>

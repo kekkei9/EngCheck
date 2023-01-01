@@ -19,9 +19,9 @@ const Reading2Unit2 = (props) => {
 
     return <div className="Reading2Unit2" style={{display: "flex", flexDirection: 'column'}}>
         <div>
-            <span>Read the contributions again. For questions 1-10, choose from the contributors (A-D). The contributors may be chosen more than once.</span>
+            <span style={{fontWeight: '600'}}>Read the contributions again. For questions 1-10, choose from the contributors (A-D). The contributors may be chosen more than once.</span>
         </div>
-        <div>
+        <div style={{marginTop: '16px'}}>
             <span>Which contributor:</span>
         </div>
         <div className="chooseFormContainer" style={{display: 'flex', flexDirection: 'column'}}>
